@@ -1,0 +1,94 @@
+* {
+    font-family: 'Book Antiqua', 'Palatino Linotype', Palatino, serif;
+}
+
+html {
+    background: url("../images/elenor.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    color: black;
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: red;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px yellow;
+    margin: 10px auto;
+}
+
+#timer-display {
+    margin: 10px auto;
+    font-family: monospace;
+    font-size: 100px;
+    color: white;
+    text-align: right;
+
+}
+
+.start {
+    color: red;
+    background-color: black;
+    border: 8px outset red;
+    padding: 5px 15px;
+    margin: 10px auto;
+}
+
+.question-block {
+    display: none;
+    width: 960px;
+    text-align: center;
+    background-color: white;
+    border: 2px double burlywood;
+    padding: 10px;
+    opacity: .8;
+}
+
+.question {
+    margin: 10px auto;
+}
+
+.ul {
+    list-style: none;
+}
+
+.li {
+    padding-left: 20px;
+}
+
+.done {
+    display: none;
+    border: 2px outset black;
+    padding: 5px 15px;
+    margin: 10px auto;
+}
+
+.results {
+    font-size: 20px;
+    display: none;
+    color: white;
+}
+
+#correct, #incorrect, #unanswered {
+    margin: 10px auto;
+
+}
+
+.reset {
+    display: none;
+    color: black;
+    background-color: red;
+    border: 2px outset: yellow;
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin: 10px auto;
+
+}
